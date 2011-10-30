@@ -1,0 +1,12 @@
+Dependencies:
+	build-essentials:                    "sudo apt-get install build-essentials"
+	libncurses5-dev:                     "sudo apt-get install libncurses5-dev"
+
+Compiling:
+	:server Run 'make server'
+	:client Run 'make'
+
+Running:                   
+	"./client $NAME $SERVER_ADDRESS" 
+
+
